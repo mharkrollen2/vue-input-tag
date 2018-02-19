@@ -139,7 +139,8 @@ export default {
       v-model                  = "newTag"
       v-on:keydown.delete.stop = "removeLastTag"
       v-on:keydown             = "addNew"
-      :class                    = "'new-tag ' + input_class"
+      :class                    = "input_class"
+	  class                    = "new-tag"
     />
   </div>
 </template>
